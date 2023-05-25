@@ -232,4 +232,8 @@ int replace_alias(info_t *);
 int replace_vars(info_t *);
 int replace_string(char **, char *);
 
+/* parser.c */
+char **tokenize(char *str, const char *delim);
+char **tokenize_input(char *input);
+
 #endif
